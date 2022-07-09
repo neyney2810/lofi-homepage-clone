@@ -1,7 +1,7 @@
-@use '../abstracts/variables';
+@use '../../App';
 
 #waiting-screen {
-    background-color: variables.$color-bg-300;
+    background-color: App.$color-bg-wait;
     position: absolute;
     top: 0;
     left: 0;

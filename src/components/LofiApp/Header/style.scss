@@ -1,0 +1,17 @@
+@use '../../../App';
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 80px;
+    transition: all .3s ease-in-out;
+    z-index: 1000;
+    padding: 0 48px;
+    display: flex;
+
+    .left {
+        height: 100px;
+        background-color: none;
+    }
+}
